@@ -10,10 +10,8 @@ class TblVehiculoMantenimientoSerializer(serializers.ModelSerializer):
     class Meta:
         model = TblVehiculoMantenimiento
         fields = '__all__'
+
 class TblTipoMantenimientoSerializer(serializers.ModelSerializer):
     class Meta:
         model = TblTipoMantenimiento
         fields = '__all__'
-
-
-

@@ -154,6 +154,7 @@ class TblParentesco(models.Model):
 class TblTipoMantenimiento(models.Model):
     tipo_mantenimiento_id = models.AutoField(primary_key=True)
     tipo_mantenimiento_nombre = models.CharField(max_length=45)
+    tipo_mantenimiento_descripcion = models.CharField(max_length=100)
 
     class Meta:
         db_table = 'tbl_tipo_mantenimiento'
